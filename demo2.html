@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+</head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header {
+        background-color: #e69191;
+        width: 100%;
+        height: 35px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-contenedor {
+        margin: 0;
+        padding: 0;
+        width: 400px;
+        height: 800px;
+        background-color: #eee;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedor-circulos {
+        background-color: #ccf669;
+        width: 27%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-text-dominio {
+        background-color: #a0ebea;
+        width: 65%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .contenedor-circulo-end {
+        background: #eee;
+        width: 80%;
+        height: 80%;
+        border-radius: 12px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .circulo {
+        width: 20%;
+        height: 60%;
+        background: rgb(47, 164, 43);
+        border-radius: 100%;
+    }
+
+    .contenedor-text-dominio-end {
+        width: 80%;
+        height: 80%;
+        background-color: #e66ced;
+        display: flex;
+        align-items: center;
+        border-radius: 12px;
+    }
+
+    .contenedor-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background: #22e7d4;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenedor-img {
+        width: 95%;
+        height: 40%;
+        background-color: #a4ff94;
+    }
+
+    .contenedor-inconos {
+        width: 95%;
+        height: 58%;
+        background-color: #e66ced;
+    }
+
+    .date {
+        width: 95%;
+        height: 30%;
+        background-color: #eee;
+        margin: 2px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        animation: mov 2s infinite;
+    }
+
+    @keyframes mov {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        25% {
+            transform: rotate(25deg);
+        }
+
+        50% {
+            transform: rotate(0);
+        }
+
+        75% {
+            transform: rotate(-25deg);
+        }
+    }
+
+    .contenedor-date {
+        width: 100%;
+        height: 75%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contenedor-icon {
+        width: 20%;
+        height: 100%;
+        background-color: #961d1d;
+    }
+
+    .contenedor-text {
+        width: 75%;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    p.title {
+        font-size: 25px;
+    }
+
+    p.text {
+        font-size: 20px;
+    }
+
+    .contenedor-good-food {
+        width: 100%;
+        height: 23%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .good-food {
+        width: 95%;
+        height: 100%;
+        background-color: #eee;
+        margin: 2px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contenedor-good-food-icon {
+        width: 20%;
+        height: 100%;
+        background-color: #961d1d;
+    }
+</style>
+
+<body>
+    <div class="main-contenedor">
+        <div class="header">
+            <div class="contenedor-circulos">
+                <div class="contenedor-circulo-end">
+                    <div class="circulo"></div>
+                    <div class="circulo"></div>
+                    <div class="circulo"></div>
+                </div>
+            </div>
+            <div class="contenedor-text-dominio">
+                <div class="contenedor-text-dominio-end">
+                    <p class="text-dominio">
+                        index.html
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor-content">
+            <div class="contenedor-img">
+            </div>
+            <div class="contenedor-inconos">
+                <div class="contenedor-date">
+                    <div class="date">
+                        <div class="contenedor-icon"></div>
+                        <div class="contenedor-text">
+                            <p class="title">Date:</p>
+                            <p class="text">Saturday, Nov 16, 2024</p>
+                        </div>
+                    </div>
+                    <div class="date">
+                        <div class="contenedor-icon"></div>
+                        <div class="contenedor-text">
+                            <p class="title">Location:</p>
+                            <p class="text">123 Nairobi, Kenya</p>
+                        </div>
+                    </div>
+                    <div class="date">
+                        <div class="contenedor-icon"></div>
+                        <div class="contenedor-text">
+                            <p class="title">Time:</p>
+                            <p class="text">4:00pm - 8:00pm</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedor-good-food">
+                    <div class="good-food">
+                        <div class="contenedor-good-food-icon">
+
+                        </div>
+                        <div class="conteneor-text-good-food">
+                            Good food, great company and lots of fun!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

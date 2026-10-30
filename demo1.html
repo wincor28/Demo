@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-contenedor {
+        width: 350px;
+        height: 450px;
+        background-color: #eee;
+        display: flex;
+        flex-direction: column;
+        border-radius: 12px;
+    }
+
+    .header {
+        width: 100%;
+        height: 25px;
+        background-color: #cbf0fb;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .circulo-color {
+        width: 23%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .text-url {
+        width: 73%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        border-radius: 12%;
+        padding-left: 12px;
+        justify-content: space-around;
+    }
+
+    .main-contenedor-into {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        align-items: center;
+        width: 100%;
+    }
+
+    .main-list {
+        background-color: #fff;
+        padding: 6px;
+        border-radius: 12px;
+        width: 90%;
+        height: 90%;
+    }
+
+    .contenedor-check {
+        display: flex;
+        justify-content: space-between;
+        margin: 5px;
+        width: 95%;
+        align-items: center;
+        height: 40px;
+        background-color: #eee;
+        border-radius: 12px;
+    }
+
+    .campo-input {
+        display: flex;
+        justify-content: space-between;
+        height: 10%;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .text {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contenedor-input-text {
+        width: 70%;
+        height: 100%;
+    }
+
+    .input-text {
+        width: 100%;
+        height: 84%;
+        border-radius: 12px;
+    }
+
+    .contenedor-input-button {
+        width: 25%;
+        height: 100%;
+
+    }
+
+    .input-button {
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+        background-color: #2f4bd8;
+        color: #fff;
+        font-size: 20px;
+    }
+
+    input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+        background-color: #fff;
+        border-radius: 1px;
+        appearance: none;
+        cursor: pointer;
+        display: grid;
+        border-radius: 5px;
+    }
+
+    .cuadros-select {
+        display: grid;
+
+    }
+
+    .contenedor-favicon {
+        width: 10%;
+        height: 100%;
+        background-color: #eee;
+    }
+
+    .contenedor-check-text {
+        display: flex;
+        justify-content: flex-start;
+        /* background: #eee; */
+        width: 74%;
+        transition: background 0.3s, transform 0.3s ;
+    }
+
+    .contenedor-check:hover {
+
+        background-color: #7f1c1c;
+        transform:rotate(45deg) ;
+    }
+
+    .circulo {
+        background-color: #2f4bd8;
+        width: 20%;
+        height: 70%;
+        border-radius: 100%;
+    }
+
+    p.parrafo-text-url {
+        background-color: #FFE;
+        padding: 3px;
+        width: 80%;
+        border-radius: 6px;
+    }
+</style>
+
+<body>
+    <div class="main-contenedor">
+        <div class="header">
+            <div class="circulo-color">
+                <div class="circulo"></div>
+                <div class="circulo"></div>
+                <div class="circulo"></div>
+            </div>
+            <div class="text-url">
+                <p class="parrafo-text-url">index.html</p>
+            </div>
+        </div>
+        <div class="main-contenedor-into">
+            <div class="main-list">
+                <div class="text">
+                    <p class="text-list">
+                        To Do List
+                    </p>
+                </div>
+                <div class="campo-input">
+                    <div class="contenedor-input-text">
+                        <input class="input-text" type="text" name="" id="">
+                    </div>
+                    <div class="contenedor-input-button">
+                        <button class="input-button">add</button>
+                    </div>
+                </div>
+                <div class="cuadros-select">
+                    <div class="contenedor-check">
+                        <input type="checkbox" name="rep1" id="">
+                        <div class="contenedor-check-text">
+                            <p class="check-text">Learn HTML y CSS</p>
+                        </div>
+                        <div class="contenedor-favicon">
+
+                        </div>
+                    </div>
+                    <div class="contenedor-check">
+                        <input type="checkbox" name="rep2" id="">
+                        <div class="contenedor-check-text">
+                            <p class="check-text">Biuld a real project</p>
+                        </div>
+                        <div class="contenedor-favicon">
+
+                        </div>
+                    </div>
+                    <div class="contenedor-check">
+                        <input type="checkbox" name="rep3" id="">
+                        <div class="contenedor-check-text">
+                            <p class="check-text">Practice Javascript</p>
+                        </div>
+                        <div class="contenedor-favicon">
+
+                        </div>
+                    </div>
+                    <div class="contenedor-check">
+                        <input type="checkbox" name="rep4" id="">
+                        <div class="contenedor-check-text">
+                            <p class="check-text">Be consisten</p>
+                        </div>
+                        <div class="contenedor-favicon">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

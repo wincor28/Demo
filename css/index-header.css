@@ -1,0 +1,153 @@
+.main-body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+}
+
+.contenedor-logo {
+    padding: 1%;
+    background-color: #9b192d;
+    width: 15%;
+    height: 100px;
+}
+
+.contenedor-logo-img {
+    width: 100%;
+}
+
+.img-logo {
+    width: 100%;
+}
+
+.ul-contenedor-header {
+    list-style-type: none;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1%;
+}
+
+.li-contenido-header {
+    display: flex;
+    align-items: center;
+}
+
+
+.a-li-contenedor-header {
+    color: #9b192d;
+    text-decoration: none;
+}
+
+/*por observar*/
+/*
+.a-li-contenedor-header:hover {
+    border-bottom: 6px solid #393939;
+
+}
+*/
+.p-contenedor-a-header {
+    font-weight: 600;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.p-contenedor-a-header:hover {
+    color: #393939;
+}
+
+.slider-contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main-slider-contenedor {
+    width: 100%;
+}
+
+.contenedor-mensaje-slider {
+    position: absolute;
+    background-color: #fdfdfdd9;
+    opacity: 0.95;
+    width: 600px;
+    height: 350px;
+    transform: translateY(103%);
+    right: 63.8%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-text-mensaje-slider {
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: #9b192d;
+}
+
+.contenedor-informacion-carrera {
+    width: 90%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 433px;
+}
+
+
+.contenedor-img-informativo {
+    position: relative;
+    width: 25%;
+}
+
+.contenedor-texto-informacion-carrera {
+    width: 70%;
+    background-color: #f2f2f2;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.contenedor-img-fondo {
+    width: 100%;
+    display: block;
+}
+
+.contenedor-img-sobrepuesta {
+    position: absolute;
+    transform: translateX(-50%);
+    width: 40%;
+    height: 100px;
+    z-index: 10;
+    left: 100%;
+    bottom: -150px;
+}
+
+.img-fondo {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px #fff;
+
+}
+
+.img-sobrepuesta {
+    width: 100%;
+}
+
+.contenedor-titulo-texto-informativo {
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    color: #9b192d;
+    font-size: 34px;
+}
+
+.contenedor-texto-informativo {
+    margin: 15px;
+    padding: 15px;
+}
